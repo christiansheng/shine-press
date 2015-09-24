@@ -43,8 +43,7 @@ vim /etc/apache2/extra/httpd-vhosts.conf
 &lt;/VirtualHost&gt;
 </pre>
 重启apeche使修改生效
-<pre class="lang:zsh decode:true ">
-sudo apachectl restart
+<pre class="lang:zsh decode:true ">sudo apachectl start
 </pre>
 3. 修改本机的host设置
 --------
